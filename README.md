@@ -1,5 +1,3 @@
-# improved-octo-giggle
-shop
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
