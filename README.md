@@ -52,7 +52,7 @@
                 <li><a href="Roupas-Universais.html" target="_blank">Roupas</a></li>
                 <li><a href="Sapato-Universais.html" target="_blank">Sapatos</a></li>
                 <li><a href="Cosmeticos-Universais.html" target="_blank">Cosméticos</a></li>
-                <li><a href="#payment">Pagamento</a></li>
+                <li><a href="Acessorios-Universais.html">Acessorios</a></li>
             </ul>
             <div class="search-bar">
                 <input class="linp" type="text" placeholder="Buscar produtos..." id="search-input">
@@ -82,64 +82,37 @@
     </header>
     <main>
         <section class="banner">
-            <h1>Promoções Imperdíveis!</h1>
+            <h1> </h1>
             <img src="Image/banner.jpg" alt="Banner da Loja" class="banner-image">
             <div class="banner-text">
-                <h2>Bem-vindo à nossa loja online!</h2>
-                <p class="promotion">Descubra uma variedade de produtos incríveis e aproveite nossas ofertas especiais.</p>
+                <h2>Bem-vindo à nossa loja online você pode Comprar a partir de casa!</h2>
             </div>
-        </section>
-        <section id="modal" class="modal" style="display: none;">
-            <div class="modal-content">
-                <button onclick="openModal" class="modal-button">Clica-me!</button>
-            </div>
-        </section>
-        <div id="myModal">
-            <h3>Novidades de Promoções</h3>
-                <p class="promotion">Confira nossas promoções e produtos exclusivos. Aproveite! 
-                    <br/>Estamos aqui para oferecer a melhor experiência de compra online.</p>
-            <ul id="cart-items">
-        <li class="container3">
-            <img src="Image/Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Camisa Africana', 11500)">11.500 Kzs - Camisa Africana <br>Adicionar ao Carrinho</button>
-        </li>
-        <li class="container3">
-            <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Sapato Homem', 5500)">5.500 Kzs - Sapato Homem<br>Adicionar ao Carrinho</button>
-        </li>
-        <li class="container3">
-            <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Casaco Masculino neo', 10500)">10.500 Kzs - Casaco Masculino neo<br>Adicionar ao Carrinho</button>
-        </li>
-        <li class="container3">
-            <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Bolsa da Shein', 9000)">9.000 Kzs - Bolsa da Shein<br>Adicionar ao Carrinho</button>
-        </li>
-        </ul>
-       
-    </div>
-       
+        </section>      
         <section class="destaque2">
-            <h2>Compre a partir de casa!</h2>
-            </ul id="cart-items">
-        <li class="container3">
-            <img src="Image/Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Camisa Africana', 11500)">11.500 Kzs - Camisa Africana <br>Adicionar ao Carrinho</button>
-        </li>
-        <li class="container3">
-            <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Sapato Homem', 5500)">5.500 Kzs - Sapato Homem<br>Adicionar ao Carrinho</button>
-        </li>
-        <li class="container3">
-            <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Casaco Masculino neo', 10500)">10.500 Kzs - Casaco Masculino neo<br>Adicionar ao Carrinho</button>
-        </li>
-        <li class="container3">
-            <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3">
-            <button class="overlay" onclick="addToCart('Bolsa da Shein', 9000)">9.000 Kzs - Bolsa da Shein<br>Adicionar ao Carrinho</button>
-        </li>
-         </ul>
+            <ul id="cart-items" style="display: flex; flex-wrap: wrap; gap: 20px; list-style: none; padding: 0;">
+            <li class="container3" style="flex: 1; max-width: 200px;">
+                <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3" style="width: 100%; height: auto;">
+                <button class="overlay" onclick="addToCart('Camisa Africana', 11500)" style="width: 100%;">11.500 Kzs - Camisa Africana <br>Adicionar ao Carrinho</button>
+            </li>
+            <li class="container3" style="flex: 1; max-width: 200px;">
+                <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3" style="width: 100%; height: auto;">
+                <button class="overlay" onclick="addToCart('Sapato Homem', 5500)" style="width: 100%;">5.500 Kzs - Sapato Homem<br>Adicionar ao Carrinho</button>
+            </li>
+            <li class="container3" style="flex: 1; max-width: 200px;">
+                <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3" style="width: 100%; height: auto;">
+                <button class="overlay" onclick="addToCart('Casaco Masculino neo', 10500)" style="width: 100%;">10.500 Kzs - Casaco Masculino neo<br>Adicionar ao Carrinho</button>
+            </li>
+            <li class="container3" style="flex: 1; max-width: 200px;">
+                <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3" style="width: 100%; height: auto;">
+                <button class="overlay" onclick="addToCart('Bolsa da Shein', 9000)" style="width: 100%;">9.000 Kzs - Bolsa da Shein<br>Adicionar ao Carrinho</button>
+            </li>
+            <li class="container3" style="flex: 1; max-width: 200px;">
+                <img src="Image/Worls18-2025.jpg" alt="Novo" class="image3" style="width: 100%; height: auto;">
+                <button class="overlay" onclick="addToCart('Bolsa da Shein', 9000)" style="width: 100%;">9.000 Kzs - Bolsa da Shein<br>Adicionar ao Carrinho</button>
+            </li>
+            </ul>
         </section>
+
         <div >
             <p class="promotion"> Obrigado por visitar nossa loja online! Esperamos que você tenha encontrado o que estava procurando.
                 <br/>Se precisar de ajuda, não hesite em entrar em contato conosco. Estamos aqui para ajudar!</p>
@@ -162,12 +135,11 @@
         </div>
         <div class="social-icons">
             <div class="footer-social">
-                <a href="#" ><img src="Image/f_logo_RGB-Blue_1024.png" alt="Facebook" class="image0"></a>
+                <a href=" https://www.facebook.com/profile.php?id=61575511993275" ><img src="Image/f_logo_RGB-Blue_1024.png" alt="Facebook" class="image0"></a>
                 <a href="#" ><img src="Image/X-logo.png" alt="twitter"  class="image0"></a>
-                <a href="#" ><img src="Image/whatsapp.png" alt="WhatsApp" class="image0"></a>
-                <a href="#" ><img src="Image/instagram-logo.png" alt="Intagram" class="image0"></a>
-                <a href="#" ><img src="Image/black-tiktok-logo.jpg " alt="tik-tok" class="image0"></a>
-            </div>
+                <a href="https://wa.me/message/LHL6WBZDZTGAJ1" ><img src="Image/whatsapp.png" alt="WhatsApp" class="image0"></a>
+                <a href="https://www.instagram.com/leo.pimentel_21?igsh=YzljYTk1ODg3Zg==" ><img src="Image/instagram-logo.png" alt="Intagram" class="image0"></a>
+                <a href="https://vm.tiktok.com/ZMBKN3bTE/" ><img src="Image/black-tiktok-logo.jpg " alt="tik-tok" class="image0"></a>
             </div>
             <div class="search-results"> 
                 <h3>Resultados da Busca: 0 </h3>
@@ -176,4 +148,3 @@
     </footer>
 </body>
 </html>
-
